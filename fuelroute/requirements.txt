@@ -1,0 +1,15 @@
+# Production dependencies — pinned to versions currently installed and verified
+Django>=6.0,<6.1
+psycopg2-binary>=2.9.9
+requests>=2.32
+python-dotenv>=1.0
+django-cors-headers>=4.0
+djangorestframework>=3.15
+pygeohash>=1.2
+
+# Optional: Redis cache backend (set CACHE_BACKEND env var to use)
+# redis>=5.0
+
+# Django 6 transitive dependencies (auto-installed, listed for reproducibility)
+asgiref>=3.8
+sqlparse>=0.5

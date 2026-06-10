@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+staticfiles/
+media/
+
+# Environment variables / secrets
+.env
+.env.local
+.env.*.local
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+env.bak/
+venv.bak/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+
+# Opencode AI assistant
+.opencode/
+
+# Graphify knowledge graph output (generated, not source)
+graphify-out/
+
+# Generated documentation / handoff files (ephemeral)
+ARCHITECTURE.md
+AGENTS.md
+HANDOFF.md
+
+# Frontend map visualization (generated HTML, not source)
+map_visualization.html
+
+# API testing exports
+insomnia_requests.json
+
+# Dev tooling configs
+pyrightconfig.json
+.pyrightconfig.json
