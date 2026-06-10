@@ -16,7 +16,7 @@ CLOSE_STOP_PENALTY_DOLLARS = 0.50  # Max price penalty (linear) for close stops
 
 # Performance constants
 CORRIDOR_CACHE_TTL = 3600  # 1 hour
-GEOHASH_PRECISION = 5  # ~5km x 5km cells
+GEOHASH_PRECISION = 5  # ~3 miles x 3 miles cells (~5km)
 ROUTE_SAMPLE_INTERVAL_MILES = 5.0
 
 
